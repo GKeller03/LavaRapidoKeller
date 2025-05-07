@@ -10,6 +10,7 @@ import model.TipoServico;
 
 public class Main {
     public static void main(String[] args) {
+        // Opções exibidas no menu principal do sistema
         String[] opcoes = { "Cadastrar Cliente", "Cadastrar Tipo de Serviço", "Agendar Serviço", "Sair" };
 // Loop principal do menu (permanece até o usuário escolher "Sair")
         while (true) {
