@@ -1,5 +1,5 @@
 package main;
-
+// Importação das views responsáveis pelas interfaces de Cliente, Tipo de Serviço e Agendamento
 import view.ClienteView;
 import view.TipoServicoView;
 import view.AgendamentoView;
