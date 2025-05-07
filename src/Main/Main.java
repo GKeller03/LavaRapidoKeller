@@ -11,7 +11,7 @@ import model.TipoServico;
 public class Main {
     public static void main(String[] args) {
         String[] opcoes = { "Cadastrar Cliente", "Cadastrar Tipo de Serviço", "Agendar Serviço", "Sair" };
-
+// Loop principal do menu (permanece até o usuário escolher "Sair")
         while (true) {
             int escolha = JOptionPane.showOptionDialog(
                 null,
